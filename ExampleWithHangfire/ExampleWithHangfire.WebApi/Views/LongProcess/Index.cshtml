@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Long Process";
+}
+
+<h2>Long Process</h2>
+@using (Html.BeginForm("Index", "LongProcess", FormMethod.Post))
+{
+<div class="row">
+    <div class="row">
+        <input type="text" />
+    </div>
+    <br />
+    <div class="row">
+        <input type="submit" id="btnStartLongProcess" value="Start Long Process" class="btn-default" />
+    </div>
+</div>
+}
